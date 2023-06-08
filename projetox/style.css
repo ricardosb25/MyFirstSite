@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Sigmar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,25,7,1) 53%, rgba(130,41,3,1) 100%);
+}
+.cab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    border-bottom: 0.5px solid antiquewhite;
+}
+.img-cab {
+    height: 64px;
+    width: 96px;
+}
+.men-cab{
+    display: flex;
+    gap: 16px;
+}
+.itm-men-cab {
+    font-family: 'Instrument Serif', serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+.con {
+    margin-bottom: 45px;
+}
+.con-pri {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.con-pri-esc {
+    display: flex;
+    flex-direction:column ;
+    gap: 16px;
+}
+.tit-bod {
+    font-family: 'Sigmar', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: antiquewhite;
+}
+.sub-tit-bod {
+    font-family: 'Instrument Serif', serif;
+    color: darkgoldenrod;
+    font-weight: 400;
+    font-size: 24px;
+}
+.btn-bod {
+    background-color: aliceblue;
+    width: 180px;
+    height: 64px;
+    border-radius: 24px;
+    font-family: 'Instrument Serif', serif;
+    color:black;
+    font-weight: 400;
+    font-size: 32px;
+}
+.img-bod {
+    height: 430;
+    margin-top: 24px;
+}
+.con-seg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.ask-tit-bod {
+    font-family: 'Sigmar', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: antiquewhite;
+}
+.ask-bod {
+    font-family: 'Instrument Serif', serif;
+    color: darkgoldenrod;
+    font-weight: 400;
+    font-size: 24px;
+}
+.rod {
+    padding: 32px;
+    border-top: 0.4px solid darkgoldenrod;
+}
+.img-rod {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}

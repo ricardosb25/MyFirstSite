@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Sigmar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,25,7,1) 53%, rgba(130,41,3,1) 100%);
+}
+.cab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    border-bottom: 0.5px solid antiquewhite;
+}
+.img-cab {
+    height: 64px;
+    width: 96px;
+}
+.men-cab{
+    display: flex;
+    gap: 16px;
+}
+.itm-men-cab {
+    font-family: 'Instrument Serif', serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+.con {
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+.tit-con {
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: antiquewhite;
+    margin-bottom: 32px;
+}
+.par-con {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.rod {
+    padding: 32px;
+    border-top: 0.4px solid darkgoldenrod;
+}
+.img-rod {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}

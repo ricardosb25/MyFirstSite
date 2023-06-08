@@ -1,0 +1,6 @@
+                    <img src="cafecard.jpg" height="500" width="200" alt="café">
+                    <img class="caf-lei" src="cafecomleitecard.jpeg" height="500" width="200" alt="café com leite">
+                    <img class="cap" src="cappuccinocard.jpeg" height="500" width="200" alt="cappuccino">
+                    <img class="moc" src="mochacard.jpeg" height="500" width="200" alt="mocha">
+                    <img class="mac" src="macchiatocard.jpeg" height="500" width="200" alt="macchiato">
+                    <img class="fra" src="frappecard.jpeg" height="500" width="200" alt="frappé">
